@@ -1,33 +1,43 @@
 body {
+	background-color: lightcyan;
 	font-family: sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "Gill sans MT";
-	color: green;
-}
-
-nav {
-	border: solid black 1px;
-	margin: 1px;
-	padding: 1px;
+	font-family: "Gill Sans MT";
+	color: navy;
 }
 
 nav ul {
-	margin: 1px;
-	padding: 1px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+	border: solid black 1px;
 	
 }
 
 nav li {
-	display: inline;
-	padding: 8px;
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: gray;
 }
 
 #sidebar {
-	background-color: lightgreen;
-	border: solid black 1px;
-	padding: 5px;
+	background-color: lavender;
+	border: navy groove 15px;
+	padding: 10px;
 	margin: 5px;
 	float: right;
 	width: 33%;
@@ -58,6 +68,11 @@ table, th, td {
 }
 
 .poem {
+	font-size: 125%;
 	list-style-type: none;
 	line-height: 1.5;
+}
+
+.smalltext {
+	font-size: small
 }

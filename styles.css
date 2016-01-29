@@ -1,15 +1,63 @@
-.top-nav li {
+body {
+	font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Gill sans MT";
+	color: green;
+}
+
+nav {
+	border: solid black 1px;
+	margin: 1px;
+	padding: 1px;
+}
+
+nav ul {
+	margin: 1px;
+	padding: 1px;
+	
+}
+
+nav li {
 	display: inline;
+	padding: 8px;
 }
 
 #sidebar {
+	background-color: lightgreen;
+	border: solid black 1px;
+	padding: 5px;
+	margin: 5px;
 	float: right;
+	width: 33%;
+}
+
+#content {
+	width: 66%;
+}
+
+#content p {
+	margin: 10px;
+	padding: 10px;
+}
+
+table, th, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	margin: 5px;
+	padding: 5px;
+	
+}
+	
+.bio-photo {
+	float: left;
+	border: solid black 1px;
+	padding: 1em;
 }
 
 .poem {
 	list-style-type: none;
-}
-
-.bottom-nav li {
-	display: inline;
+	line-height: 1.5;
 }

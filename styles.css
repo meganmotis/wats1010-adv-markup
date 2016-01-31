@@ -3,6 +3,10 @@ body {
 	font-family: sans-serif;
 }
 
+a.active {
+	font-weight: bold;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Gill Sans MT";
 	color: navy;
@@ -18,7 +22,7 @@ nav ul {
 	
 }
 
-nav li {
+nav ul li {
 	float: left;
 }
 
@@ -58,6 +62,7 @@ table, th, td {
 	border-spacing: 5px;
 	margin: 5px;
 	padding: 5px;
+	text-align: left;
 	
 }
 	
